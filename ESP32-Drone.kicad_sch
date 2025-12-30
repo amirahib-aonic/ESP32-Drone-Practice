@@ -1,0 +1,1923 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3c0e038e-28f7-4e96-beb4-6e0ecd959d7c")
+	(paper "A3")
+	(title_block
+		(title "ESP32 Drone PCB")
+		(date "2025-12-29")
+		(rev "1")
+		(company "Aonic")
+	)
+	(lib_symbols
+		(symbol "AI_NON-BOM:Fiducial-1mmPad-2mmMask"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial-1mmPad-2mmMask"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker 1mm Pad 2mm Mask"
+				(at 1.016 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial-1mmPad-2mmMask_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 91.44 22.86)
+		(end 398.78 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 227a6879-0ba8-43c2-9e17-d7022e955d25)
+	)
+	(circle
+		(center 167.64 104.14)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 8bb0067d-c6fa-4eb5-b5c5-ac00ef83e9a7)
+	)
+	(text "3V3\n"
+		(exclude_from_sim no)
+		(at 200.66 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0193976b-3ca6-4f7b-a809-490a6be951c9")
+	)
+	(text "GPIO Motor 1"
+		(exclude_from_sim no)
+		(at 308.61 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "085d1193-61d9-4891-9516-41e910cb404f")
+	)
+	(text "3V3\n"
+		(exclude_from_sim no)
+		(at 356.87 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d39db21-ec59-4a00-8eab-850f640d169c")
+	)
+	(text "AN-VBAT/2"
+		(exclude_from_sim no)
+		(at 227.33 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26021dce-60d0-48d7-ab1e-da024596f91b")
+	)
+	(text "Block Diagram\n"
+		(exclude_from_sim no)
+		(at 113.03 33.274 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "342fabdb-864f-4cb9-9583-25463b193cd8")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 227.33 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c81cf72-5ff0-4d28-845c-ad6985767b40")
+	)
+	(text "GPIO-LED 1"
+		(exclude_from_sim no)
+		(at 308.61 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61233241-570b-44be-b2ac-230a6bb2bbfd")
+	)
+	(text "USB DATA\n"
+		(exclude_from_sim no)
+		(at 156.21 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66bcd974-04c5-47ec-88d0-2403982c5b7e")
+	)
+	(text "ESP32 Drone KiCAD Practice"
+		(exclude_from_sim no)
+		(at 49.53 25.908 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "7b3899a7-fe00-4bed-85c1-4107dad3ce07")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 308.61 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d683591-f756-4c4f-bcc5-ee5033e5136b")
+	)
+	(text "GPIO Motor 4"
+		(exclude_from_sim no)
+		(at 308.61 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8099aa77-9f40-4665-95e3-872ae94a8d4e")
+	)
+	(text "GPIO-LED 2"
+		(exclude_from_sim no)
+		(at 308.61 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86be48c7-56b8-4e32-875e-182afc836ab3")
+	)
+	(text "VBAT\n"
+		(exclude_from_sim no)
+		(at 363.22 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d168e9a-7f8a-4a34-b99b-56ecd49d96a5")
+	)
+	(text "3V3\n"
+		(exclude_from_sim no)
+		(at 285.75 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "934087a3-18ec-4b0f-a52a-0deab0e7ee66")
+	)
+	(text "EN"
+		(exclude_from_sim no)
+		(at 162.56 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9585b3e4-d634-4f5b-88a8-9ea822c861bf")
+	)
+	(text "GPIO Motor 2"
+		(exclude_from_sim no)
+		(at 308.61 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9cf7af3-5b33-4725-a471-3945a3d9b5ae")
+	)
+	(text "GPIO-LED 3"
+		(exclude_from_sim no)
+		(at 308.61 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfb22a82-06a5-4a77-a83a-6891fb5d9317")
+	)
+	(text "VBAT"
+		(exclude_from_sim no)
+		(at 180.34 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5a31831-a830-4483-b77a-cbb4c5cc51d6")
+	)
+	(text "GPIO Motor 3"
+		(exclude_from_sim no)
+		(at 308.61 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3d0dda6-261a-4543-9191-468e5bb532a9")
+	)
+	(text "V-USB"
+		(exclude_from_sim no)
+		(at 172.72 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f61697f5-9a83-4b0d-beeb-92ac5827e65c")
+	)
+	(text_box "USB Input"
+		(exclude_from_sim no)
+		(at 127 96.52 0)
+		(size 22.86 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 254 192 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "117cf399-75ab-4b7f-9c19-853352408caf")
+	)
+	(text_box "Battery\nCharging\nCircuit\n\nTP4056"
+		(exclude_from_sim no)
+		(at 186.69 93.98 0)
+		(size 21.59 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 249 186 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d724196-9cf4-4e99-a675-ad13c9daf7a3")
+	)
+	(text_box "Toggle Switch"
+		(exclude_from_sim no)
+		(at 127 58.42 0)
+		(size 21.59 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 249 186 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "488d8a9c-0fef-41b8-9422-85bc3fc71da3")
+	)
+	(text_box "Motor Driver"
+		(exclude_from_sim no)
+		(at 330.2 120.65 0)
+		(size 29.21 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 242 197 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a96bf6e-9838-4b1b-abe4-1295e8942d73")
+	)
+	(text_box "Table of Contents"
+		(exclude_from_sim no)
+		(at 21.59 53.34 0)
+		(size 57.15 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 251 195 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5d93fbf5-1593-4306-ad65-fefa53998f5a")
+	)
+	(text_box "USB to UART Converter\n\nCP2102"
+		(exclude_from_sim no)
+		(at 168.91 133.35 0)
+		(size 21.59 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 249 186 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f2f330c-e011-497a-b132-ecb5a8a39840")
+	)
+	(text_box "Additional BOM Items"
+		(exclude_from_sim no)
+		(at 22.225 119.38 0)
+		(size 57.15 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 253 207 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "638198f8-7f33-4c33-ae98-2c45e6ae9197")
+	)
+	(text_box "LEDs"
+		(exclude_from_sim no)
+		(at 330.2 83.82 0)
+		(size 27.94 29.21)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 242 197 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84f50112-9a57-4024-84bc-cea14a0a7e43")
+	)
+	(text_box "Accelerometer\nMPU6050"
+		(exclude_from_sim no)
+		(at 330.2 58.42 0)
+		(size 27.94 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 242 197 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98479ed7-2730-451e-8539-0bd736f56acb")
+	)
+	(text_box "3V3 Regulator\nMIC5219"
+		(exclude_from_sim no)
+		(at 177.8 58.42 0)
+		(size 24.13 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 188 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9b2b8b4-6f70-4517-83b8-7ee92a147a15")
+	)
+	(text_box "ESP32 based quad rotor drone running on 1300 mAh LiPo battery with a battery charging circuit. Project created as part of a YouTube video course on using KiCAD more professionally."
+		(exclude_from_sim no)
+		(at 21.59 30.48 0)
+		(size 57.15 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b36fe4b2-65ba-46b8-9d59-480c503507c9")
+	)
+	(text_box "Battery\nConnector"
+		(exclude_from_sim no)
+		(at 168.91 110.49 0)
+		(size 12.7 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 252 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7fe0828-46f5-4e7c-bf94-e86446209809")
+	)
+	(text_box "Page 1 - Top Sheet\nPage 2 - Power Management\nPage 3 - ESP32\nPage 4 - Peripherals"
+		(exclude_from_sim no)
+		(at 21.59 58.42 0)
+		(size 57.15 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d2a2a4bb-e46e-437f-be03-c0bce6ddf6d1")
+	)
+	(text_box "Non-BOM Items (mark exclude from BOM)"
+		(exclude_from_sim no)
+		(at 21.59 80.01 0)
+		(size 57.15 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 248 200 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e7724d0f-1cc7-4cc7-8e7a-a36ecc67abd0")
+	)
+	(text_box "Microcontroller\n\nESP32-WROOM Module"
+		(exclude_from_sim no)
+		(at 250.19 58.42 0)
+		(size 36.83 95.25)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 242 197 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcd2086c-e42c-4fee-9ca7-055345799cd5")
+	)
+	(polyline
+		(pts
+			(xy 176.53 69.85) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00809efd-d5be-4d8a-8869-e7a0936d1801")
+	)
+	(polyline
+		(pts
+			(xy 199.39 57.15) (xy 200.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cdba05-1d9e-416e-a2a7-fc2649652e64")
+	)
+	(polyline
+		(pts
+			(xy 181.61 121.92) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055d4336-713c-46d6-ac38-d349a3adc714")
+	)
+	(polyline
+		(pts
+			(xy 328.93 86.36) (xy 330.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08049cee-ee5d-445f-be1d-490742b3de61")
+	)
+	(polyline
+		(pts
+			(xy 361.95 121.92) (xy 364.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da404b5-33db-438c-a216-2930e362aead")
+	)
+	(polyline
+		(pts
+			(xy 363.22 121.92) (xy 363.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df8d512-0368-4825-933a-51658d49c7fe")
+	)
+	(polyline
+		(pts
+			(xy 287.02 123.19) (xy 330.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f9f9f1-aec3-4f36-8cd7-fe4332f3da7e")
+	)
+	(polyline
+		(pts
+			(xy 179.07 109.22) (xy 181.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185922d6-0ee9-439a-ae7a-0bf640368ee3")
+	)
+	(polyline
+		(pts
+			(xy 359.41 123.19) (xy 363.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d41c715-dbf0-4182-af0e-27d53ecb7697")
+	)
+	(polyline
+		(pts
+			(xy 328.93 146.05) (xy 330.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f334343-4617-4dc9-961f-4ef4b9b57fbd")
+	)
+	(polyline
+		(pts
+			(xy 328.93 139.7) (xy 330.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2964f10a-8774-42ae-9cf6-fac4dd3f8f81")
+	)
+	(polyline
+		(pts
+			(xy 167.64 74.93) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8e0309-827d-4c4a-bdfa-ffe89f209d21")
+	)
+	(polyline
+		(pts
+			(xy 361.95 121.92) (xy 363.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e43456a-2afd-4359-bd03-7fb8ab5a547c")
+	)
+	(polyline
+		(pts
+			(xy 167.64 146.05) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367aa567-38a2-4a2d-9f49-0486d05df85c")
+	)
+	(polyline
+		(pts
+			(xy 328.93 88.9) (xy 330.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f101c70-83e6-4b03-83ad-0e37d1a3acad")
+	)
+	(polyline
+		(pts
+			(xy 176.53 67.31) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41570af6-0ef7-4838-80e1-faa50ef33be8")
+	)
+	(polyline
+		(pts
+			(xy 248.92 143.51) (xy 250.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4303ae3c-b72e-4c2b-9c27-9ec6d340ca55")
+	)
+	(polyline
+		(pts
+			(xy 167.64 143.51) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0a68a0-ecd0-471c-9160-5a05ccb1eb49")
+	)
+	(polyline
+		(pts
+			(xy 185.42 102.87) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5143c32c-2acd-4f19-967b-cf3513634abb")
+	)
+	(polyline
+		(pts
+			(xy 179.07 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f3ec05-71e9-4a7b-b5c4-12904be98859")
+	)
+	(polyline
+		(pts
+			(xy 287.02 87.63) (xy 330.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5247364b-ab4a-436d-833e-18703d1e6277")
+	)
+	(polyline
+		(pts
+			(xy 287.02 107.95) (xy 330.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5769a8b6-3fb9-458f-9cd9-53b53a5d7c7d")
+	)
+	(polyline
+		(pts
+			(xy 287.02 130.81) (xy 330.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f465a0-d93d-4918-a4f3-040830938618")
+	)
+	(polyline
+		(pts
+			(xy 328.93 66.04) (xy 330.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c79147-45ad-4bd6-9381-08397e91d2c8")
+	)
+	(polyline
+		(pts
+			(xy 328.93 97.79) (xy 330.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669b6bc7-5029-47af-8a2e-0f40d3293877")
+	)
+	(polyline
+		(pts
+			(xy 355.6 55.88) (xy 356.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eb3fd1-97a0-454a-ba0c-b44c926ae544")
+	)
+	(polyline
+		(pts
+			(xy 190.5 144.78) (xy 250.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699702b3-ba1c-453e-bba2-d95b65f59ac7")
+	)
+	(polyline
+		(pts
+			(xy 148.59 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab3e232-f38a-4db3-ace9-68d1c8084fee")
+	)
+	(polyline
+		(pts
+			(xy 355.6 55.88) (xy 358.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e60b627-0e40-402c-824a-256cc906434f")
+	)
+	(polyline
+		(pts
+			(xy 328.93 147.32) (xy 330.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee3092b-2113-4e3e-b548-92c3e5160159")
+	)
+	(polyline
+		(pts
+			(xy 328.93 148.59) (xy 330.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e47ace-74e3-4155-bf63-938821c3944d")
+	)
+	(polyline
+		(pts
+			(xy 287.02 67.31) (xy 330.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7708d3b3-3f56-4699-b22d-aeadbc7bfce8")
+	)
+	(polyline
+		(pts
+			(xy 328.93 106.68) (xy 330.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77da4f6e-7fbe-4b36-bfd5-af21cae9a780")
+	)
+	(polyline
+		(pts
+			(xy 180.34 109.22) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783ec792-ad20-492a-9a97-0d971d34dc92")
+	)
+	(polyline
+		(pts
+			(xy 200.66 57.15) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee487d1-f296-4596-8e32-ce1438879a96")
+	)
+	(polyline
+		(pts
+			(xy 328.93 129.54) (xy 330.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8447ee86-80a4-4589-b800-e64affa8ef11")
+	)
+	(polyline
+		(pts
+			(xy 284.48 57.15) (xy 285.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9bd8a3-162e-451f-b1ac-ac6c17bf894b")
+	)
+	(polyline
+		(pts
+			(xy 248.92 146.05) (xy 250.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db90ca2-24ef-4638-ae99-0e6be3afdd59")
+	)
+	(polyline
+		(pts
+			(xy 356.87 55.88) (xy 356.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2d4e9b-8882-49c7-ae8c-4702aff53e72")
+	)
+	(polyline
+		(pts
+			(xy 287.02 99.06) (xy 330.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36b19c5-ccd5-4a88-95a3-a436daff7e5e")
+	)
+	(polyline
+		(pts
+			(xy 328.93 68.58) (xy 330.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4189953-a699-4c26-bc1d-86579c70b572")
+	)
+	(polyline
+		(pts
+			(xy 149.86 113.03) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a911b21a-6b7a-442e-a36c-e7103833a305")
+	)
+	(polyline
+		(pts
+			(xy 181.61 113.03) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2212185-7191-4c0e-9778-9d3d6c2483eb")
+	)
+	(polyline
+		(pts
+			(xy 287.02 147.32) (xy 330.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bb3ae9-af72-45d6-a283-d94b3a4d49f6")
+	)
+	(polyline
+		(pts
+			(xy 248.92 123.19) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7350ced-f0d0-4682-8047-264ef15ad568")
+	)
+	(polyline
+		(pts
+			(xy 248.92 120.65) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8440adc-ec72-4263-ab1e-17d212db6ae3")
+	)
+	(polyline
+		(pts
+			(xy 149.86 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7b7651-893e-4bcb-a941-340575254924")
+	)
+	(polyline
+		(pts
+			(xy 328.93 124.46) (xy 330.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c020cea1-bd1e-4637-9a66-ffde7a595b1a")
+	)
+	(polyline
+		(pts
+			(xy 176.53 73.66) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d9ad45-9133-4acb-acf0-ae4acb75f5c5")
+	)
+	(polyline
+		(pts
+			(xy 185.42 105.41) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ac0675-2f8c-4ccf-91a7-2a98e2e7cf22")
+	)
+	(polyline
+		(pts
+			(xy 157.48 144.78) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c816b78d-aed0-4d04-a8e7-e86b458c46cd")
+	)
+	(polyline
+		(pts
+			(xy 328.93 100.33) (xy 330.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca43324d-6790-4489-a9db-47e0c117a10d")
+	)
+	(polyline
+		(pts
+			(xy 285.75 57.15) (xy 285.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18b56f9-6b9d-4e1b-b39d-5bfa3d794950")
+	)
+	(polyline
+		(pts
+			(xy 328.93 132.08) (xy 330.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3602896-2d38-4bdd-b9d2-1230f89f0e10")
+	)
+	(polyline
+		(pts
+			(xy 328.93 121.92) (xy 330.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f6b7bf-3c91-4454-9d2b-7d7416c603e7")
+	)
+	(polyline
+		(pts
+			(xy 287.02 138.43) (xy 330.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8b1137-6622-4d6b-a4f3-fa43c5d91341")
+	)
+	(polyline
+		(pts
+			(xy 157.48 113.03) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8d0800-effc-4dba-ae5a-e2c7683d6e65")
+	)
+	(polyline
+		(pts
+			(xy 199.39 57.15) (xy 201.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45d42a9-fac8-401c-a90f-3f3105d41871")
+	)
+	(polyline
+		(pts
+			(xy 328.93 109.22) (xy 330.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d7e8b4-3239-43ab-b93b-cfa9bc3cfa6e")
+	)
+	(polyline
+		(pts
+			(xy 176.53 76.2) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf37b58-b5b0-49f5-8eff-e8a5b53bd799")
+	)
+	(polyline
+		(pts
+			(xy 167.64 74.93) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b8c724-a613-455e-af9d-9d3428a0ce67")
+	)
+	(polyline
+		(pts
+			(xy 284.48 57.15) (xy 287.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec96b6d-0be0-44e1-9ab6-09558b856bf6")
+	)
+	(polyline
+		(pts
+			(xy 328.93 137.16) (xy 330.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff219374-f6c2-498c-b130-a50533f10292")
+	)
+	(symbol
+		(lib_id "AI_NON-BOM:Fiducial-1mmPad-2mmMask")
+		(at 26.67 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d421d67-71cd-4ac6-a0e2-724f186b8a63")
+		(property "Reference" "FID1"
+			(at 29.21 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial-1mmPad-2mmMask"
+			(at 29.21 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 26.67 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker 1mm Pad 2mm Mask"
+			(at 27.686 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI_NON-BOM:Fiducial-1mmPad-2mmMask")
+		(at 26.67 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc62e6b-a330-4eb7-b013-c3a08e5f9c98")
+		(property "Reference" "FID2"
+			(at 29.21 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial-1mmPad-2mmMask"
+			(at 29.21 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 26.67 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker 1mm Pad 2mm Mask"
+			(at 27.686 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 67.31 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8a36c3b-a31e-49d2-ba02-c5c94393c994")
+		(property "Reference" "H4"
+			(at 69.85 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 69.85 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 67.31 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6cebfa7-ee05-4c23-9763-91761216c839")
+		(property "Reference" "H3"
+			(at 69.85 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 69.85 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI_NON-BOM:Fiducial-1mmPad-2mmMask")
+		(at 26.67 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf83ba51-10c5-4aef-acf9-05ecacb5f2df")
+		(property "Reference" "FID3"
+			(at 29.21 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial-1mmPad-2mmMask"
+			(at 29.21 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 26.67 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker 1mm Pad 2mm Mask"
+			(at 27.686 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edc1f4dc-a084-43a8-8bcc-cb040bcf1426")
+		(property "Reference" "H1"
+			(at 48.26 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24b1438-32a1-4df2-8b7a-8e583a3da68d")
+		(property "Reference" "H2"
+			(at 48.26 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 205.74)
+		(size 40.64 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e9057b0-6767-4df3-b750-1842715ed384")
+		(property "Sheetname" "Power Management"
+			(at 119.38 205.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power-Management.kicad_sch"
+			(at 119.38 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 205.74)
+		(size 45.72 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ce6fa79-7a84-44bc-924c-5359847dfdc9")
+		(property "Sheetname" "ESP32"
+			(at 187.96 205.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 187.96 245.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 205.74)
+		(size 52.07 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dba2b057-153c-412a-92d2-c4f4e3036fce")
+		(property "Sheetname" "Peripherals"
+			(at 256.54 205.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 256.54 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
