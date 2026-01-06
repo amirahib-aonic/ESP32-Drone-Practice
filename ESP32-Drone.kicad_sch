@@ -777,6 +777,16 @@
 		)
 		(uuid "12f9f9f1-aec3-4f36-8cd7-fe4332f3da7e")
 	)
+	(wire
+		(pts
+			(xy 160.02 220.98) (xy 187.96 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183ae266-ad79-4de4-93ec-dcda42421d84")
+	)
 	(polyline
 		(pts
 			(xy 179.07 109.22) (xy 181.61 109.22)
@@ -1096,6 +1106,16 @@
 			(type default)
 		)
 		(uuid "9b2d4e9b-8882-49c7-ae8c-4702aff53e72")
+	)
+	(wire
+		(pts
+			(xy 160.02 227.33) (xy 187.96 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1685aa4-58f0-4643-96d6-007bfb37e852")
 	)
 	(polyline
 		(pts
@@ -1822,6 +1842,26 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_DN" bidirectional
+			(at 160.02 227.33 0)
+			(uuid "1051aa4e-4ca9-4b1a-b71e-700e8af94366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 160.02 220.98 0)
+			(uuid "4cb909c6-d040-4890-a714-d2fade0a4b3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ESP32-Drone"
 				(path "/3c0e038e-28f7-4e96-beb4-6e0ecd959d7c"
@@ -1862,6 +1902,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 187.96 227.33 180)
+			(uuid "75ecb3bf-c407-4682-beb7-31dabb870b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 187.96 220.98 180)
+			(uuid "ed0ec638-2b44-4db2-9536-36ec0ee3c99f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
