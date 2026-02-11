@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Digikey_flip_flops")(type "Legacy")(uri "${KIPRJMOD}/Library/DigiKey/digikey-symbols/dk_Logic-Flip-Flops.lib")(options "")(descr ""))
+)

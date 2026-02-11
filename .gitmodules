@@ -1,0 +1,9 @@
+[submodule "Library/RnDTest"]
+	path = Library/RnDTest
+	url = https://github.com/amirahib-aonic/ESP32-Drone-Practice.git
+[submodule "Library/RnDTest1"]
+	path = Library/RnDTest1
+	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
+[submodule "Library/DigiKey"]
+	path = Library/DigiKey
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
