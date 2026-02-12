@@ -2239,7 +2239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DIP-14_W3mm"
+		(property "Footprint" "Digikey_Footprints:SOIC-14_W3.9mm"
 			(at 49.53 212.09 0)
 			(effects
 				(font

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Digikey_Footprints")(type "KiCad")(uri "C:/Users/User1/OneDrive - Poladrone/Documents/KiCad/Projects/Ramp Plan/ESP32-Drone/Library/DigiKey/digikey-footprints.pretty")(options "")(descr ""))
+)
